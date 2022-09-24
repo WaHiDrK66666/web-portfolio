@@ -10,7 +10,16 @@ h1{
     font-size: 23px;
 }
 
-.name-highlight{
+h2{
+font-size: 28px;
+}
+
+
+p{
+    color: dimgray;
+}
+
+.orange-highlight{
     color: orange;
 }
 
@@ -33,4 +42,80 @@ h1{
     background-image: url("images/top-banner.png");
     background-size: cover;
     height: 80vh;
+    margin-bottom: 20px;
 }
+
+
+
+
+
+section{
+    height: 500px;
+
+}
+
+
+.link-button{
+text-decoration: none;
+/* background-color: orange; */
+background-image: linear-gradient(90deg, red,green);
+padding: 10px 20px;
+border-radius: 11px;
+color: white;
+font-weight: bold;
+
+}
+
+
+.dream-area{
+background-image: url("images/dream-bg.png");
+background-repeat: no-repeat;
+background-position: right;
+padding: 20px 0px;
+height: 90vh;
+/* border: 2px solid red; */
+
+
+}
+
+.single-experience{
+    box-shadow: 10px 10px 5px rgb(80, 79, 79) ;
+    border-radius: 10px;
+    height: 55%;
+    padding: 17px;
+    margin: 11px 30px;
+    
+
+}
+
+.experience-area{
+    /* border: 2px solid red; */
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    margin-top: 20px;
+    padding-left: 20px;
+
+}
+
+#Full-stack{
+
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 2;
+}
+
+
+#baby-web{
+
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 2;
+}
+
+footer p{
+   text-align: center;
+
+
+}
+
